@@ -1,0 +1,20 @@
+[package]
+name = "weather-cli"
+version = "0.1.0"
+edition = "2021"
+author = "ArshErgon"
+repo = "https://github.com/ArshErgon/weather-cli"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = "0.11"
+serde = { version = "1.0.152", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.0", features = ["full"] }
+actix-web = { version = "4.0.0-beta.10" }
+pbr = "1.0.4"
+clearscreen = "2.0.0"
+owo-colors = "3.5.0"
+chrono = "0.4.23"
+
